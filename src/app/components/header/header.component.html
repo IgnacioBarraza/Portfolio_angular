@@ -1,1 +1,42 @@
-<p>header works!</p>
+<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-8"
+  [ngClass]="scrolled ? 'bg-zinc-900/95 backdrop-blur-sm shadow-md' : 'bg-transparent'">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      <a href="/" class="flex items-center space-x-2">
+        <div class="w-8 h-8 bg-red-500 rounded-sm flex items-center justify-center">
+          <span class="text-white font-bold">運</span>
+        </div>
+        <span class="text-xl font-semibold tracking-tight text-white">Nacho</span>
+      </a>
+
+      <!-- Desktop header -->
+      <div class="hidden md:flex md:items-center">
+        <nav class="flex space-x-8 mr-6">
+          @for (item of navItems; track $index) {
+          <a href={{item.href}}
+            class="group relative flex flex-col items-center text-sm font-medium text-zinc-300 hover:text-white transition-colors">
+            <span class="text-red-500 mb-0.5">{{item.japaneseLabel}}</span>
+            <span>{{item.label}}</span>
+            <span
+              class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+          }
+        </nav>
+
+        <!-- Lang selector - Desktop -->
+         <div class="text-white">selector do languaje</div>
+      </div>
+      <div class="md:hidden flex items-center space-x-2">
+        <!-- <LanguageSelector /> -->
+        <button
+          class="text-zinc-300 hover:text-white"
+          aria-label="Toggle menu"
+          (click)="manageDrawer()"
+        >
+          <!-- {{isOpen ? <X size={24} /> : <Menu size={24} />}} -->
+           <span class="text-white">{{isOpen ? 'abierto' : 'cerrado'}}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>

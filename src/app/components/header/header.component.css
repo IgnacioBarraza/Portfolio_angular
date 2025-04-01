@@ -1,0 +1,4 @@
+.container {
+  padding: var(--container-padding);
+  max-width: var(--container-max-width-2xl);
+}
