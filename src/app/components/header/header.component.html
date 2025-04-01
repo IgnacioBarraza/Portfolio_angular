@@ -24,19 +24,37 @@
         </nav>
 
         <!-- Lang selector - Desktop -->
-         <div class="text-white">selector do languaje</div>
+        <app-lang-selector />
       </div>
       <div class="md:hidden flex items-center space-x-2">
-        <!-- <LanguageSelector /> -->
-        <button
-          class="text-zinc-300 hover:text-white"
-          aria-label="Toggle menu"
-          (click)="manageDrawer()"
-        >
-          <!-- {{isOpen ? <X size={24} /> : <Menu size={24} />}} -->
-           <span class="text-white">{{isOpen ? 'abierto' : 'cerrado'}}</span>
+        <app-lang-selector />
+        <button class="text-zinc-300 hover:text-white" aria-label="Toggle menu" (click)="manageDrawer()">
+          @if (isOpen) {
+            <fa-icon [icon]="faX"></fa-icon>
+          } @else {
+            <fa-icon [icon]="faBars"></fa-icon>
+          }
         </button>
       </div>
     </div>
   </div>
+
+  @if (isOpen) {
+  <div className="md:hidden bg-zinc-900/95 backdrop-blur-sm">
+    <div className="container mx-auto px-4 py-4">
+      <nav className="flex flex-col space-y-4">
+        @for (item of navItems; track $index) {
+        <a href={{item.href}}
+          className="flex items-center space-x-3 py-2 px-4 rounded-md hover:bg-zinc-800 transition-colors"
+          (click)="manageDrawer()">
+          <span className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center text-red-500">
+            {{item.japaneseLabel}}
+          </span>
+          <span>{{item.label}}</span>
+        </a>
+        }
+      </nav>
+    </div>
+  </div>
+  }
 </header>

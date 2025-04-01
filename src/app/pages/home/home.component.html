@@ -1,37 +1,6 @@
 <div class="min-h-screen text-zinc-200 overflow-hidden">
   <app-header />
-  <section class="relative h-screen flex items-center">
-    <div class="background"></div>
-    <div class="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between">
-      <div class="md:w-1/2 space-y-6">
-        <h1 class="text-5xl md:text-7xl font-bold tracking-tighter">
-          <span class="text-red-500">開発者</span>
-          <span class="block mt-2">Software Engineer</span>
-        </h1>
-        <p class="text-lg text-zinc-400 max-w-md">
-          Crafting digital experiences with precision and elegance. Building modern web applications with a focus on
-          performance and design.
-        </p>
-        <div class="flex gap-4">
-          <button class="bg-red-500 hover:bg-red-600 text-white">View Projects</button>
-          <button class="border-red-500 text-red-500 hover:bg-red-950">
-            Contact Me
-          </button>
-        </div>
-      </div>
-      <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
-        <div class="relative w-64 h-64 md:w-80 md:h-80">
-          <div class="absolute inset-0 border-2 border-red-500 rounded-md transform rotate-6"></div>
-          <div class="absolute inset-0 bg-zinc-900 rounded-md overflow-hidden">
-            <img
-              src="/placeholder.svg?height=400&width=400"
-              alt="Profile"
-              class="object-cover"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <app-hero-section />
+  <app-about />
 </div>
 

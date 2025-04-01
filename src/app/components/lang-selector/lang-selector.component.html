@@ -1,0 +1,28 @@
+<div class="relative">
+  <button (click)="toggleDropdown()"
+    class="flex items-center space-x-1 px-2 py-1 rounded-md hover:bg-zinc-800/50 transition-colors"
+    [attr.aria-expanded]="isOpen" aria-haspopup="true">
+    <span class="mr-1">{{selectedLang.flag}}</span>
+    <span class="text-sm hidden sm:inline">{{selectedLang.nativeName}}</span>
+    @if (isOpen) {
+    <fa-icon [icon]="faChevronUp" />
+    } @else {
+    <fa-icon [icon]="faChevronDown" />
+    }
+  </button>
+
+  @if (isOpen) {
+  <div class="absolute right-0 mt-1 w-40 rounded-md bg-zinc-800 shadow-lg ring-1 ring-black ring-opacity-5 z-50">
+    <div class="py-1" role="menu" aria-orientation="vertical">
+      @for (lang of languages; track $index) {
+      <button class="flex items-center w-full px-4 py-2 text-sm text-left hover:bg-zinc-700 transition-colors"
+        [ngClass]="selectedLang.code === lang.code ? 'bg-zinc-700/50 text-red-400' : 'text-zinc-200'" role="menuitem"
+        (click)="selectLanguage(lang)">
+        <span class="mr-2">{{lang.flag}}</span>
+        <span>{{lang.nativeName}}</span>
+      </button>
+      }
+    </div>
+  </div>
+  }
+</div>
