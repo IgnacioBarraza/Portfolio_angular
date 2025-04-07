@@ -1,0 +1,5 @@
+<div [ngClass]="'writing-vertical-rl ' + (class || '')">
+  <span *ngFor="let char of text.split(''); let i = index" class="block">
+    {{ char }}
+  </span>
+</div>
