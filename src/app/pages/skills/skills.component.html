@@ -1,1 +1,16 @@
-<p>skills works!</p>
+<section id="skills" class="py-20 relative">
+  <div class="background-3"></div>
+  <div class="container mx-auto px-4">
+    <div class="flex items-center mb-12">
+      <div class="h-px flex-grow bg-red-500/20"></div>
+      <h2 class="text-3xl font-bold px-4">スキル / Skills</h2>
+      <div class="h-px flex-grow bg-red-500/20"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+       @for (skill of skills; track $index) {
+         <app-skill-card [skills]="skill"/>
+       }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,46 @@
+[
+  {
+    "category": "Frontend",
+    "icon": "前",
+    "items": [
+      "Angular",
+      "TypeScript",
+      "Tailwind CSS & Bootstrap",
+      "React",
+      "Next.js"
+    ]
+  },
+  {
+    "category": "Backend",
+    "icon": "後",
+    "items": [
+      "Node.js",
+      "Express",
+      "Java",
+      "Spring Boot (learning)",
+      "REST APIs"
+    ]
+  },
+  {
+    "category": "Database",
+    "icon": "デ",
+    "items": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Firebase",
+      "TypeORM"
+    ]
+  },
+  {
+    "category": "DevOps",
+    "icon": "運",
+    "items": [
+      "Docker",
+      "Docker compose",
+      "CI/CD",
+      "Railway",
+      "Nginx"
+    ]
+  }
+]

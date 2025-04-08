@@ -10,3 +10,18 @@ export interface Language {
   nativeName: string
   flag: string
 }
+
+export interface SkillsData {
+  category: string;
+  icon: string;
+  items: string[];
+}
+
+export interface WorkExperienceProps {
+  title: string
+  company: string
+  period: string
+  description: string
+  technologies: string[]
+  isLast?: boolean
+}

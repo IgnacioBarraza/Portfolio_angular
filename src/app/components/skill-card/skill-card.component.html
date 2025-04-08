@@ -1,1 +1,13 @@
-<p>skill-card works!</p>
+<div class="bg-zinc-900 p-6 rounded-md border border-zinc-800 hover:border-red-500/30 transition-colors">
+  <div class="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center mb-4">
+    <span class="text-red-500 text-2xl">{{ skills.icon }}</span>
+  </div>
+  <h3 class="text-xl font-semibold mb-4">{{ skills.category }}</h3>
+  <ul class="space-y-3">
+    @for (item of skills.items; track $index) {
+      <li class="flex items-center justify-between">
+        <span>{{ item }}</span>
+      </li>
+    }
+  </ul>
+</div>
