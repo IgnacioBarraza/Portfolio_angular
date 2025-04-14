@@ -1,1 +1,16 @@
-<p>work-experience works!</p>
+<section id="experience" class="py-20 relative">
+  <div class="background-4"></div>
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="flex items-center mb-12">
+      <div class="h-px flex-grow bg-red-500/20"></div>
+      <h2 class="text-3xl font-bold px-4">経験 / Experience</h2>
+      <div class="h-px flex-grow bg-red-500/20"></div>
+    </div>
+
+    <div class="max-w-3xl mx-auto">
+      @for (experience of workExperience; track $index) {
+        <app-work-experience-card [workExperience]="experience" />
+      }
+    </div>
+  </div>
+</section>

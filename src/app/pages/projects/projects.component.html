@@ -1,1 +1,16 @@
-<p>projects works!</p>
+<section id="projects" class="py-20 relative">
+  <div class="background-5"></div>
+  <div class="container mx-auto px-4">
+    <div class="flex items-center mb-12">
+      <div class="h-px flex-grow bg-red-500/20"></div>
+      <h2 class="text-3xl font-bold px-4">プロジェクト / Projects</h2>
+      <div class="h-px flex-grow bg-red-500/20"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for (project of projectsData; track $index) {
+        <app-project-card [projectsData]="project" />
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Full Stack Developer",
+    "company": "MapVX, Santiago - Chile",
+    "period": "February 2023 - Present",
+    "description": "Develop and maintain web applications using Angular, Node.js, Firebase and PostgreSQL. Collaborate with cross-functional teams to deliver high-quality software.",
+    "technologies": ["Angular", "Node.js", "Firebase", "TypeScript", "PostgreSQL"]
+  },
+  {
+    "title": "Intern, Backend Developer",
+    "company": "MapVX, Santiago - Chile",
+    "period": "January 2025 - February 2025",
+    "description": "Development of RESTful endpoints for web services in a scalable architecture. Focused on handling metadata, relational database integration, and request validation.",
+    "technologies": ["Node.js", "TypeORM", "PostgreSQL", "Express", "TypeScript"]
+  },
+  {
+    "title": "Intern, Frontend Developer",
+    "company": "MapVX, Santiago - Chile",
+    "period": "January 2024",
+    "description": "Developed a metrics dashboard integrated with Firebase to monitor user and app metrics for data-driven decisions.",
+    "technologies": ["Angular", "Firebase", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "University Teaching Assistant",
+    "company": "Universidad de Tarapacá, Iquique - Chile",
+    "period": "March 2024 - December 2024",
+    "description": "Assisted in various courses such as Databases, TICs, and Introduction to Project Formulation. Responsibilities included grading, answering student queries, and supporting practical workshops in robotics, BPMN modeling, and database design.",
+    "technologies": ["PostgreSQL", "Java", "SQL", "Arduino", "C/C++", "BPMN", "Bizagi"],
+    "isLast": true
+  }
+]

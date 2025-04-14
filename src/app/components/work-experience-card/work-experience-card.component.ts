@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { WorkExperienceProps } from '../../utils/interfaces';
 
 @Component({
   selector: 'app-work-experience-card',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './work-experience-card.component.css'
 })
 export class WorkExperienceCardComponent {
-
+  @Input() workExperience!: WorkExperienceProps
 }

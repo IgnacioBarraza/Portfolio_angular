@@ -1,1 +1,27 @@
-<p>contact works!</p>
+<section id="contact" class="py-20 relative">
+  <div class="background-6"></div>
+  <div class="container mx-auto px-4">
+    <div class="flex items-center mb-12">
+      <div class="h-px flex-grow bg-red-500/20"></div>
+      <h2 class="text-3xl font-bold px-4">連絡先 / Contact</h2>
+      <div class="h-px flex-grow bg-red-500/20"></div>
+    </div>
+
+    <div class="max-w-2xl mx-auto">
+      <div class="flex justify-center space-x-6 mb-10">
+        <a href="https://github.com/IgnacioBarraza" target="_blank" class="w-16 h-16 bg-zinc-800 rounded-full hover:bg-red-500 transition-colors flex justify-center items-center">
+          <fa-icon [icon]="github" size="xl" />
+          <span class="sr-only">GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ignacio-barraza-rioja/" target="_blank" class="w-16 h-16 bg-zinc-800 rounded-full hover:bg-red-500 transition-colors flex justify-center items-center">
+          <fa-icon [icon]="linkedin" size="xl" />
+        </a>
+        <a href="mailto:ignacio.barraza.rioja@gmail.com" target="_blank" class="w-16 h-16 bg-zinc-800 rounded-full hover:bg-red-500 transition-colors flex justify-center items-center">
+          <fa-icon [icon]="email" size="xl" />
+        </a>
+      </div>
+
+      <app-contact-form />
+    </div>
+  </div>
+</section>

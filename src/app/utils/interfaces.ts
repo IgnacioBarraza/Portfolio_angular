@@ -25,3 +25,12 @@ export interface WorkExperienceProps {
   technologies: string[]
   isLast?: boolean
 }
+
+export interface ProjectCardProps {
+  title: string
+  description: string
+  tags: string[]
+  imageUrl: string
+  demoLink: string
+  codeLink: string
+}

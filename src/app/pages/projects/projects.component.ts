@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { ProjectCardComponent } from '../../components/project-card/project-card.component'
+import projectsDataJson from "../../utils/projects.json";
 
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports: [ProjectCardComponent],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.css',
 })
 export class ProjectsComponent {
-
+  projectsData = projectsDataJson;
 }

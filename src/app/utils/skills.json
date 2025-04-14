@@ -4,7 +4,6 @@
     "icon": "前",
     "items": [
       "Angular",
-      "TypeScript",
       "Tailwind CSS & Bootstrap",
       "React",
       "Next.js"
@@ -16,7 +15,6 @@
     "items": [
       "Node.js",
       "Express",
-      "Java",
       "Spring Boot (learning)",
       "REST APIs"
     ]
@@ -41,6 +39,17 @@
       "CI/CD",
       "Railway",
       "Nginx"
+    ]
+  },
+  {
+    "category": "Programming Languages",
+    "icon": "言",
+    "items": [
+      "C#",
+      "C/C++",
+      "Javascript",
+      "TypeScript",
+      "Java"
     ]
   }
 ]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tech Challenge",
+    "description": "A project built for the technical interview at Lazarillo (MapVX), showcasing my skills in solving complex problems with full stack technologies.",
+    "tags": ["Angular", "Bootstrap", "Firebase", "Node.js", "TypeScript"],
+    "imageUrl": "assets/tech_challenge.png",
+    "demoLink": "https://tech-challenge.devnacho.me",
+    "codeLink": "https://github.com/IgnacioBarraza/Desafio_Tecnico_Lazarillo"
+  },
+  {
+    "title": "Black Shark Web",
+    "description": "An e-commerce site for a graphic designer, enabling clients to book services and view an online portfolio. Currently undergoing a migration to improve structure and performance.",
+    "tags": ["React", "Tailwind CSS", "MySQL", "Node.js", "Express.js"],
+    "imageUrl": "assets/proyecto_bsw.png",
+    "demoLink": "https://blacksharkstudiosweb.web.app/inicio",
+    "codeLink": "https://github.com/IgnacioBarraza/BlackSharkWeb"
+  },
+  {
+    "title": "Plataforma de Evaluación | Feria de Ciencias",
+    "description": "A platform for managing and evaluating the science fair at Universidad de Tarapacá. Enables efficient project evaluation and event organization.",
+    "tags": ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "NestJS", "TypeScript", "Docker"],
+    "imageUrl": "assets/pe-uta.png",
+    "demoLink": "https://pe-uta.devnacho.me/",
+    "codeLink": "https://github.com/IgnacioBarraza/Pe_uta"
+  }
+]

@@ -1,0 +1,12 @@
+.background-6 {
+  background: rgba(24, 25, 26, 0.9) url("../../../assets/home_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
