@@ -1,6 +1,6 @@
 [
   {
-    "category": "Frontend",
+    "category": "skill.frontend",
     "icon": "前",
     "items": [
       "Angular",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "category": "Backend",
+    "category": "skill.backend",
     "icon": "後",
     "items": [
       "Node.js",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "category": "Database",
+    "category": "skill.database",
     "icon": "デ",
     "items": [
       "PostgreSQL",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "category": "DevOps",
+    "category": "skill.devops",
     "icon": "運",
     "items": [
       "Docker",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "category": "Programming Languages",
+    "category": "skill.programmingLanguage",
     "icon": "言",
     "items": [
       "C#",

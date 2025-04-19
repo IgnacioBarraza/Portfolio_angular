@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "about": "Sobre mí",
+    "skill": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Ingeniero de Software",
+    "description": "Creando experiencias digitales con precisión y elegancia. Desarrollando aplicaciones web modernas con enfoque en rendimiento y diseño.",
+    "buttonProjects": "Ver Proyectos",
+    "buttonContact": "Contáctame"
+  },
+  "about": {
+    "title": "私について / Sobre mí",
+    "myJourney": "Mi Trayectoria",
+    "paragraph1": "Con más de 2 años de experiencia en desarrollo de software, me especializo en construir soluciones escalables y eficientes utilizando el stack PEAN (PostgreSQL, Express, Angular, Node.js). Mi enfoque enfatiza arquitecturas bien estructuradas, como el diseño hexagonal, para asegurar mantenibilidad y flexibilidad. Busco escribir código limpio y modular, equilibrando la excelencia técnica con la aplicación práctica en el mundo real.",
+    "paragraph2": "Creo en el concepto japonés de 'Kaizen' (改善) - mejora continua. Cada proyecto es una oportunidad para perfeccionar mi técnica y ampliar mis conocimientos.",
+    "paragraph3": "Mi filosofía de desarrollo está inspirada en 'Wabi-sabi' (侘寂) - encontrar belleza en la imperfección y aceptar el ciclo natural de crecimiento y decadencia. Esto se traduce en crear software que sea tanto hermoso como práctico, abrazando la simplicidad y la autenticidad.",
+    "education": "Educación",
+    "degree": "Ingeniería Civil en Informática",
+    "university": "Universidad de Tarapacá, 2021 – 2025",
+    "philosophy": "Filosofía Personal",
+    "quote": "El mejor código es como un jardín japonés: cuidadosamente diseñado, equilibrado y parece simple a pesar del pensamiento complejo que hay detrás.",
+    "interests": "Intereses y Pasatiempos",
+    "interest1": "Aprender japonés",
+    "interest2": "Ver anime y leer manga",
+    "interest3": "Desarrollo de videojuegos",
+    "interest4": "Desarrollo de robótica"
+  },
+  "skill": {
+    "title": "スキル / Habilidades",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Bases de Datos",
+    "devops": "DevOps",
+    "programmingLanguage": "Lenguages de Programación"
+  },
+  "experience": {
+    "title": "経験 / Experiencia",
+    "jobs": {
+      "fullStack": {
+        "title": "Desarrollador Full Stack",
+        "period": "Febrero 2023 - Presente",
+        "description": "Desarrollo y mantenimiento de aplicaciones web usando Angular, Node.js, Firebase y PostgreSQL. Colaboración con equipos multidisciplinarios para entregar software de alta calidad."
+      },
+      "internBackend": {
+        "title": "Practicante, Desarrollador Backend",
+        "period": "Enero 2025 - Febrero 2025",
+        "description": "Desarrollo de endpoints RESTful para servicios web en una arquitectura escalable. Enfocado en el manejo de metadata, integración con bases de datos relacionales y validación de solicitudes."
+      },
+      "internFrontend": {
+        "title": "Practicante, Desarrollador Frontend",
+        "period": "Enero 2024",
+        "description": "Desarrollo de un panel de métricas integrado con Firebase para monitorear usuarios y estadísticas de la aplicación, permitiendo decisiones basadas en datos."
+      },
+      "teachingAssistant": {
+        "title": "Ayudante de Cátedra Universitario",
+        "period": "Marzo 2024 - Diciembre 2024",
+        "description": "Apoyo en cursos como Bases de Datos, TICs e Introducción a la Formulación de Proyectos. Responsabilidades incluyeron revisión de tareas, resolución de dudas y soporte en talleres prácticos sobre robótica, modelado BPMN y diseño de bases de datos."
+      }
+    }
+  },
+  "projects": {
+    "title": "プロジェクト / Proyectos",
+    "techChallenge": {
+      "title": "Desafío Técnico",
+      "description": "Proyecto desarrollado para la entrevista técnica en Lazarillo (MapVX), demostrando mis habilidades para resolver problemas complejos con tecnologías full stack."
+    },
+    "blackSharkWeb": {
+      "title": "Black Shark Web",
+      "description": "Sitio e-commerce para un diseñador gráfico, que permite a los clientes reservar servicios y ver un portafolio en línea. Actualmente en proceso de migración para mejorar estructura y rendimiento."
+    },
+    "scienceFair": {
+      "title": "Plataforma de Evaluación | Feria de Ciencias",
+      "description": "Plataforma para gestionar y evaluar la feria científica en la Universidad de Tarapacá. Facilita la evaluación de proyectos y la organización del evento."
+    },
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código"
+  },
+  "contact": {
+    "title": "連絡先 / Contacto",
+    "sendMessage": "Enviar Mensaje",
+    "form1": "Nombre",
+    "form2": "Correo",
+    "form3": "Mensaje"
+  }
+}

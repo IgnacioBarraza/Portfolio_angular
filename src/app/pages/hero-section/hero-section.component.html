@@ -5,17 +5,16 @@
       <h1 class="text-5xl md:text-7xl font-bold tracking-tighter">
         <span class="text-red-500">開発者</span>
         <span class="block mt-2">Ignacio</span>
-        <span class="block mt-1 text-3xl md:text-5xl">Software Engineer</span>
+        <span class="block mt-1 text-3xl md:text-5xl">{{ 'home.title' | transloco }}</span>
       </h1>
       <p class="text-lg text-zinc-400 max-w-md">
-        Crafting digital experiences with precision and elegance. Building modern web applications with a focus on
-        performance and design.
+        {{ 'home.description' | transloco }}
       </p>
       <div class="flex gap-4">
-        <a href="#projects" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md">View Projects</a>
-        <button class="border-red-500 text-red-500 hover:bg-red-950 hover:text-white px-4 py-2 rounded-md border">
-          Contact Me
-        </button>
+        <a href="#projects" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md">{{ 'home.buttonProjects' | transloco }}</a>
+        <a href="#contact" class="border-red-500 text-red-500 hover:bg-red-950 hover:text-white px-4 py-2 rounded-md border">
+          {{ 'home.buttonContact' | transloco }}
+        </a>
       </div>
     </div>
     <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">

@@ -2,7 +2,7 @@
   <div class="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center mb-4">
     <span class="text-red-500 text-2xl">{{ skills.icon }}</span>
   </div>
-  <h3 class="text-xl font-semibold mb-4">{{ skills.category }}</h3>
+  <h3 class="text-xl font-semibold mb-4">{{ skills.category | transloco }}</h3>
   <ul class="space-y-3">
     @for (item of skills.items; track $index) {
       <li class="flex items-center justify-between">

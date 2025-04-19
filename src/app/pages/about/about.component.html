@@ -3,67 +3,60 @@
   <div class="container mx-auto px-4 relative z-10">
     <div class="flex items-center mb-12">
       <div class="h-px flex-grow bg-red-500/20"></div>
-      <h2 class="text-3xl font-bold px-4">私について / About</h2>
+      <h2 class="text-3xl font-bold px-4">{{ 'about.title' | transloco }}</h2>
       <div class="h-px flex-grow bg-red-500/20"></div>
     </div>
 
     <div class="flex flex-col md:flex-row gap-12">
       <div class="md:w-1/2">
-        <h3 class="text-2xl font-semibold mb-4 text-red-500">My Journey</h3>
+        <h3 class="text-2xl font-semibold mb-4 text-red-500">{{ 'about.myJourney' | transloco }}</h3>
         <p class="text-zinc-300 mb-4">
-          With over 2 years of experience in software development, I specialize in building scalable and efficient
-          solutions using the PEAN stack (PostgreSQL, Express, Angular, Node.js). My approach emphasizes well-structured
-          architectures, such as hexagonal design, to ensure maintainability and flexibility. I strive for clean,
-          modular code while balancing technical excellence with practical, real-world application.
+          {{ 'about.paragraph1' | transloco }}
         </p>
         <p class="text-zinc-300 mb-4">
-          I believe in the Japanese concept of "Kaizen" (改善) - continuous improvement. Each project is an
-          opportunity to refine my craft and expand my knowledge.
+          {{ 'about.paragraph2' | transloco }}
         </p>
         <p class="text-zinc-300 mb-4">
-          My development philosophy is inspired by "Wabi-sabi" (侘寂) - finding beauty in imperfection and
-          accepting the natural cycle of growth and decay. This translates to creating software that is both
-          beautiful and practical, embracing simplicity and authenticity.
+          {{ 'about.paragraph3' | transloco }}
         </p>
-        <h3 class="text-2xl font-semibold mb-4 mt-8 text-red-500">Education</h3>
+        <h3 class="text-2xl font-semibold mb-4 mt-8 text-red-500">{{ 'about.education' | transloco }}</h3>
         <div class="bg-zinc-800 p-4 rounded-md mb-4">
-          <h4 class="font-medium">Bachelor's in Civil Computer Engineering</h4>
-          <p class="text-zinc-400 text-sm">Universidad de Tarapacá, 2021-2025</p>
+          <h4 class="font-medium">{{ 'about.degree' | transloco }}</h4>
+          <p class="text-zinc-400 text-sm">{{ 'about.university' | transloco }}</p>
         </div>
       </div>
       <div class="md:w-1/2">
-        <h3 class="text-2xl font-semibold mb-4 text-red-500">Personal Philosophy</h3>
+        <h3 class="text-2xl font-semibold mb-4 text-red-500">{{ 'about.philosophy' | transloco }}</h3>
         <div class="bg-zinc-800 p-6 rounded-md mb-6 border-l-4 border-red-500">
           <p class="text-zinc-300 italic">
-            "The best code is like a Japanese garden - carefully crafted, balanced, and appears simple despite the
-            complex thought behind it."
+            {{ 'about.quote' | transloco }}
           </p>
         </div>
-        <h3 class="text-2xl font-semibold mb-4 text-red-500">Interests & Hobbies</h3>
+        <h3 class="text-2xl font-semibold mb-4 text-red-500">{{ 'about.interests' | transloco }}</h3>
         <div class="grid grid-cols-2 gap-4">
           <div class="bg-zinc-800 p-4 rounded-md flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
               📚
             </div>
-            <span>Learning Japanese</span>
+            <span>{{ 'about.interest1' | transloco }}</span>
           </div>
           <div class="bg-zinc-800 p-4 rounded-md flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
               ⛩️
             </div>
-            <span>Watch anime & Read manga</span>
+            <span>{{ 'about.interest2' | transloco }}</span>
           </div>
           <div class="bg-zinc-800 p-4 rounded-md flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
               🎮
             </div>
-            <span>Game Development</span>
+            <span>{{ 'about.interest3' | transloco }}</span>
           </div>
           <div class="bg-zinc-800 p-4 rounded-md flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
               🤖
             </div>
-            <span>Robotics Development</span>
+            <span>{{ 'about.interest4' | transloco }}</span>
           </div>
         </div>
       </div>

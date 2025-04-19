@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "about": "About",
+    "skill": "Skill",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Software Engineer",
+    "description": "Crafting digital experiences with precision and elegance. Building modern web applications with a focus on performance and design.",
+    "buttonProjects": "View Projects",
+    "buttonContact": "Contact Me"
+  },
+  "about": {
+    "title": "私について / About",
+    "myJourney": "My Journey",
+    "paragraph1": "With over 2 years of experience in software development, I specialize in building scalable and efficient solutions using the PEAN stack (PostgreSQL, Express, Angular, Node.js). My approach emphasizes well-structured architectures, such as hexagonal design, to ensure maintainability and flexibility. I strive for clean, modular code while balancing technical excellence with practical, real-world application.",
+    "paragraph2": "I believe in the Japanese concept of 'Kaizen' (改善) - continuous improvement. Each project is an opportunity to refine my craft and expand my knowledge.",
+    "paragraph3": "My development philosophy is inspired by 'Wabi-sabi' (侘寂) - finding beauty in imperfection and accepting the natural cycle of growth and decay. This translates to creating software that is both beautiful and practical, embracing simplicity and authenticity.",
+    "education": "Education",
+    "degree": "Bachelor's in Civil Computer Engineering",
+    "university": "Universidad de Tarapacá, 2021 – 2025",
+    "philosophy": "Personal Philosophy",
+    "quote": "The best code is like a Japanese garden – carefully crafted, balanced, and appears simple despite the complex thought behind it.",
+    "interests": "Interests & Hobbies",
+    "interest1": "Learning Japanese",
+    "interest2": "Watch anime & Read manga",
+    "interest3": "Game Development",
+    "interest4": "Robotics Development"
+  },
+  "skill": {
+    "title": "スキル / Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "devops": "DevOps",
+    "programmingLanguage": "Programming Languages"
+  },
+  "experience": {
+    "title": "経験 / Experience",
+    "jobs": {
+      "fullStack": {
+        "title": "Full Stack Developer",
+        "period": "February 2023 - Present",
+        "description": "Develop and maintain web applications using Angular, Node.js, Firebase and PostgreSQL. Collaborate with cross-functional teams to deliver high-quality software."
+      },
+      "internBackend": {
+        "title": "Intern, Backend Developer",
+        "period": "January 2025 - February 2025",
+        "description": "Development of RESTful endpoints for web services in a scalable architecture. Focused on handling metadata, relational database integration, and request validation."
+      },
+      "internFrontend": {
+        "title": "Intern, Frontend Developer",
+        "period": "January 2024",
+        "description": "Developed a metrics dashboard integrated with Firebase to monitor user and app metrics for data-driven decisions."
+      },
+      "teachingAssistant": {
+        "title": "University Teaching Assistant",
+        "period": "March 2024 - December 2024",
+        "description": "Assisted in various courses such as Databases, TICs, and Introduction to Project Formulation. Responsibilities included grading, answering student queries, and supporting practical workshops in robotics, BPMN modeling, and database design."
+      }
+    }
+  },
+  "projects": {
+    "title": "プロジェクト / Projects",
+    "techChallenge": {
+      "title": "Tech Challenge",
+      "description": "A project built for the technical interview at Lazarillo (MapVX), showcasing my skills in solving complex problems with full stack technologies."
+    },
+    "blackSharkWeb": {
+      "title": "Black Shark Web",
+      "description": "An e-commerce site for a graphic designer, enabling clients to book services and view an online portfolio. Currently undergoing a migration to improve structure and performance."
+    },
+    "scienceFair": {
+      "title": "Evaluation Platform | Science Fair",
+      "description": "A platform for managing and evaluating the science fair at Universidad de Tarapacá. Enables efficient project evaluation and event organization."
+    },
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "title": "連絡先 / Contact",
+    "sendMessage": "Send Message",
+    "form1": "Name",
+    "form2": "Email",
+    "form3": "Message"
+  }
+}

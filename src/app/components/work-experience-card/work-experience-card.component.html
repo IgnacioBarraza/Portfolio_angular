@@ -12,11 +12,11 @@
   <!-- {/* Content */} -->
   <div class="bg-zinc-800 rounded-lg p-6 hover:bg-zinc-800/80 transition-colors border border-zinc-700 hover:border-red-500/30">
     <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
-      <h3 class="text-xl font-semibold">{{ workExperience.title }}</h3>
-      <span class="text-red-500 font-medium">{{ workExperience.period }}</span>
+      <h3 class="text-xl font-semibold">{{ workExperience.title | transloco }}</h3>
+      <span class="text-red-500 font-medium">{{ workExperience.period | transloco }}</span>
     </div>
     <h4 class="text-lg text-zinc-300 mb-3">{{ workExperience.company }}</h4>
-    <p class="text-zinc-400 mb-4">{{ workExperience.description }}</p>
+    <p class="text-zinc-400 mb-4">{{ workExperience.description | transloco }}</p>
 
     <div class="flex flex-wrap gap-2">
       @for (tech of workExperience.technologies; track $index) {

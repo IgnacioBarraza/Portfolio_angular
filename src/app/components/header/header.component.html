@@ -16,7 +16,7 @@
           <a href={{item.href}}
             class="group relative flex flex-col items-center text-sm font-medium text-zinc-300 hover:text-white transition-colors">
             <span class="text-red-500 mb-0.5">{{item.japaneseLabel}}</span>
-            <span>{{item.label}}</span>
+            <span>{{ item.label | transloco }}</span>
             <span
               class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
@@ -40,17 +40,17 @@
   </div>
 
   @if (isOpen) {
-  <div className="md:hidden bg-zinc-900/95 backdrop-blur-sm">
-    <div className="container mx-auto px-4 py-4">
-      <nav className="flex flex-col space-y-4">
+  <div class="md:hidden bg-zinc-900/95 backdrop-blur-sm">
+    <div class="container mx-auto px-4 py-4">
+      <nav class="flex flex-col space-y-4">
         @for (item of navItems; track $index) {
         <a href={{item.href}}
-          className="flex items-center space-x-3 py-2 px-4 rounded-md hover:bg-zinc-800 transition-colors"
+          class="flex items-center space-x-3 py-2 px-4 rounded-md hover:bg-zinc-800 transition-colors"
           (click)="manageDrawer()">
-          <span className="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center text-red-500">
+          <span class="w-6 h-6 bg-red-500/20 rounded-full flex items-center justify-center text-red-500">
             {{item.japaneseLabel}}
           </span>
-          <span>{{item.label}}</span>
+          <span>{{ item.label | transloco }}</span>
         </a>
         }
       </nav>
